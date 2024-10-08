@@ -5,6 +5,71 @@
   <title>Title</title>
 </head>
 <body>
+<header>
+  <img src="../res/fotologo.jpg" alt="Logo del sitio" class="logo" width="100">
+  <h1>Registre d'usuari</h1>
+</header>
+
+<form action="#" method="post" class="formulario">
+  <h3>Introdueix les teves dades de contacte:</h3>
+  <label for="name">Nom:</label>
+  <input type="text" id="name" name="name" required><br>
+
+  <label for="password">Contraseña:</label>
+  <input type="password" id="password" name="password" required><br>
+
+  <label for="email">Email:</label>
+  <input type="email" id="email" name="email" required><br>
+
+  <label for="website">URL:</label>
+  <input type="url" id="website" name="website"><br>
+
+  <label for="color">Color Preferit:</label>
+  <input type="color" id="color" name="color"><br>
+
+  <label for="date">Data de naixement:</label>
+  <input type="date" id="date" name="date"><br>
+
+  <label for="time">Hora de la Reunio:</label>
+  <input type="time" id="time" name="time"><br>
+
+  <label for="number">Número de Telefon:</label>
+  <input type="number" id="number" name="number"><br>
+
+  <label for="range">Valoracio de la Pagina:</label>
+  <label for="range">(1 - 10)</label>
+  <input type="range" id="range" name="range" min="1" max="10"><br>
+
+
+  <label>Génere:</label>
+  <input type="radio" id="male" name="gender" value="male">
+  <label for="male">Home</label>
+  <input type="radio" id="female" name="gender" value="female">
+  <label for="female">Dona</label><br>
+
+  <label for="country">País:</label>
+  <select id="country" name="country">
+    <option value="es">Espanya</option>
+    <option value="mx">Alemania</option>
+    <option value="mx">França</option>
+    <option value="mx">Italia</option>
+    <option value="mx">Argentina</option>
+    <option value="mx">Brasil</option>
+    <option value="mx">Croacia</option>
+    <option value="mx">Polonia</option>
+
+  </select><br>
+  <botoverd>
+    <input type="submit" value="Enviar">
+  </botoverd>
+  <botovermell>
+    <input type="reset" value="Restablecer">
+  </botovermell>
+</form>
+
+<footer>
+  <p>&copy; Club Basquet Sant Feliu de Guixols 2024/2025</p>
+</footer>
 
 </body>
 </html>
