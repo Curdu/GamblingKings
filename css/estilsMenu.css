@@ -1,0 +1,81 @@
+body{
+    margin: 0;
+}
+nav {
+    display: flex;
+    width: 100%;
+    column-gap: 3em;
+    justify-content: center;
+    background: linear-gradient(darkgoldenrod, black 80%);
+    padding: 2em 0;
+}
+nav a {
+    text-decoration: none;
+    padding: 2em;
+    font-size: 1.7em;
+}
+* {
+    box-sizing: border-box;
+}
+.buttonBox{
+    margin: 0;
+    position:relative;
+    max-width: 200px;
+    min-width: 150px;
+    flex: 20%;
+    color: white;
+    background-color: black;
+}
+button{
+    width:100%;
+    position:relative;
+    background:rgba(0, 0, 0, 0);
+    text-transform:uppercase;
+    color:white;
+    font-weight:700;
+    letter-spacing:1px;
+    border:none;
+    font-size:15px;
+    outline:none;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    cursor: pointer;
+    display: block;
+}
+button:hover{
+    color: #135dea;
+
+}
+button:hover:after{
+
+}
+/* FIFTH BUTTON */
+
+.fifth{
+    overflow:hidden;
+    border: 1px solid rgba(255, 255, 255, 255);
+    transition:all .2s ease-in-out;
+    border-radius: 3px;
+    padding: 2em 0.5em;
+    display: block;
+    align-items: center;
+}
+.fifth:before{
+    content:" ";
+    display:block;
+    width:200px;
+    height:80px;
+    background: #135dea;
+    position:absolute;
+    top:-10px;
+    left:-200px;
+    transform:rotate(-45deg);
+    transition:all .2s ease-in-out;
+}
+
+.fifth:hover:before{
+    margin-left:300%;
+}
+#fifth:hover {
+    border: 1px solid goldenrod;
+    color: #242f40;
+}
