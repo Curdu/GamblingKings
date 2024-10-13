@@ -1,4 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Sketch&display=swap');
 body {
     background-color:#000000;
-    color:#ffffff;
+    color:gold;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+h1{
+    font-size: 4em;
+
+}
+iframe {
+    width: 100%;
+    height: 5.5em;
+    overflow: hidden;
+}
+#contingut{
+    width: 100%;
+    display: flex;
+    gap: 1%;
+}
+article {
+    background: radial-gradient(#135dea 1%, black 65%);
+}
+.abril-fatface-regular {
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.apartat {
+    width: 100%;
+}
+.contingut {
+    width: 100%;
+    display: flex;
+    margin-top: 2em;
+}
+aside{
+    width: 35%;
+    margin-right: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: radial-gradient(#750000 1%, black 65%);
+}
+aside h1 {
+    font-family: "Londrina Sketch", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    border-bottom: goldenrod dashed 4px;
+    width: 90%;
+    text-align: center;
+    font-size: 5em;
+}
+.carta {
+    width: 75%;
+    background-color: white;
+    border-radius: 5%;
+    padding: 10px;
+    display: grid;
+    height: 55rem;
+    box-shadow: 0 5px 15px grey;
+    color: black;
+    font-size: 2em;
+    margin-bottom: 2em;
+    border: solid grey 2px;
+}
+.top-esquerra, .bottom-dreta {
+    font-family: "Londrina Sketch", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.3em;
+}
+.top-esquerra{
+    align-self: start;
+    margin-top: 0.5em;
+    margin-left: 0.5em;
+    font-weight: bold;
+}
+.bottom-dreta {
+    margin-right: 0.5em;
+    margin-bottom: 0.5em;
+    align-self: flex-end;
+    justify-self: right;
+    transform: rotate(180deg);
+    font-weight: bold;
+}
+.carta span {
+    color: red;
+    font-size: 2em;
+}
+.carta h1 {
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 1em;
+}
+.presentacio {
+    width: 80%;
+    margin: 4em 0 4em 2em;
+    border-bottom: goldenrod solid;
+    text-align: center;
+    justify-self: center;
+    align-self: center;
+}
+.carta-contingut {
+    display: flex;
+    justify-content: center;
+    font-size: 0.8em;
+
+}
+div.carta-contingut {
+    border-style: dashed;
+    margin-bottom: 2em;
+    margin-left: 2em;
+    margin-right: 2em;
+    text-align: center;
+}
+.container{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }

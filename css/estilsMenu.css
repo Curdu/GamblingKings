@@ -6,18 +6,23 @@ nav {
     width: 100%;
     column-gap: 3em;
     justify-content: center;
+    align-items: center;
     background: linear-gradient(darkgoldenrod, black 80%);
-    padding: 2em 0;
+    padding: 1em 0;
+    margin: 0;
+
 }
-nav a {
+a {
+    display: block;
     text-decoration: none;
-    padding: 2em;
-    font-size: 1.7em;
+    height: inherit;
+    width: inherit;
 }
 * {
     box-sizing: border-box;
 }
 .buttonBox{
+    width: 100%;
     margin: 0;
     position:relative;
     max-width: 200px;
@@ -25,9 +30,14 @@ nav a {
     flex: 20%;
     color: white;
     background-color: black;
+    height: 3.5em;
+    padding: 0;
+    display: flex;
+    justify-content: center;
 }
 button{
-    width:100%;
+    width:inherit;
+    height: inherit;
     position:relative;
     background:rgba(0, 0, 0, 0);
     text-transform:uppercase;
@@ -40,6 +50,8 @@ button{
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
     cursor: pointer;
     display: block;
+    padding: 0;
+
 }
 button:hover{
     color: #135dea;
@@ -55,8 +67,6 @@ button:hover:after{
     border: 1px solid rgba(255, 255, 255, 255);
     transition:all .2s ease-in-out;
     border-radius: 3px;
-    padding: 2em 0.5em;
-    display: block;
     align-items: center;
 }
 .fifth:before{
@@ -75,7 +85,24 @@ button:hover:after{
 .fifth:hover:before{
     margin-left:300%;
 }
-#fifth:hover {
-    border: 1px solid goldenrod;
-    color: #242f40;
+.fifth:hover {
+    border: 1px solid #135dea;
+    color: #135dea;
+}
+#cistella {
+    background-image: url("../res/cistellaIcono.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 3em;
+    height: 3em;
+    filter: brightness(2);
+}
+#cistella:hover {
+    background-image: url("../res/cistellaIconoHover.png");
+
+}
+#cistella a {
+    display: block;
+    height: inherit;
+    width: inherit;
 }
