@@ -1,0 +1,103 @@
+body{
+    margin: 0;
+}
+nav {
+    display: flex;
+    width: 100%;
+    column-gap: 3em;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(darkgoldenrod, black 80%);
+    padding: 1em 0;
+    margin: 0;
+
+}
+a {
+    display: block;
+    text-decoration: none;
+    height: inherit;
+    width: inherit;
+}
+* {
+    box-sizing: border-box;
+}
+.buttonBox{
+    width: 100%;
+    margin: 0;
+    position:relative;
+    flex: 20%;
+    color: white;
+    background-color: black;
+    height: 3.5em;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+button{
+    width:inherit;
+    height: inherit;
+    position:relative;
+    background:rgba(0, 0, 0, 0);
+    text-transform:uppercase;
+    color:white;
+    font-weight:700;
+    letter-spacing:1px;
+    border:none;
+    font-size:1em;
+    outline:none;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    cursor: pointer;
+    display: block;
+    padding: 0;
+}
+button:hover{
+    color: #135dea;
+
+}
+button:hover:after{
+
+}
+/* FIFTH BUTTON */
+
+.fifth{
+    overflow:hidden;
+    border: 1px solid rgba(255, 255, 255, 255);
+    transition:all .2s ease-in-out;
+    border-radius: 3px;
+    align-items: center;
+}
+.fifth:before{
+    content:" ";
+    display:block;
+    background: #135dea;
+    position:absolute;
+    top:-10px;
+    left:-200px;
+    transform:rotate(-45deg);
+    transition:all .2s ease-in-out;
+}
+
+.fifth:hover:before{
+    margin-left:300%;
+}
+.fifth:hover {
+    border: 1px solid #135dea;
+    color: #135dea;
+}
+#cistella {
+    background-image: url("../res/cistellaIcono.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 3em;
+    height: 3em;
+    filter: brightness(2);
+}
+#cistella:hover {
+    background-image: url("../res/cistellaIconoHover.png");
+
+}
+#cistella a {
+    display: block;
+    height: inherit;
+    width: inherit;
+}

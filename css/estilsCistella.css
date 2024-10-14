@@ -1,0 +1,72 @@
+
+article{
+    margin-left: 6em;
+    width: 60%;
+    margin-right: 1em;
+}
+.registre {
+    display: flex;
+    flex-direction: column;
+    background-color: #bebebe;
+    width: 100%;
+    border-radius: 2%;
+}
+.registre-compra {
+    margin: 1em 1em;
+    display: flex;
+    flex-direction: column;
+    border: black dashed 1px;
+}
+.registre-compra-info {
+    display: flex;
+    flex-direction: row;
+}
+.registre-compra-info img {
+    width: 10em;
+    height: 10em;
+}
+.preu{
+    justify-self: flex-end;
+    float: right;
+    flex-grow: 2;
+    text-align: right;
+    margin-right: 1em;
+    text-decoration-line: underline;
+    color: #000000;
+}
+.registre-compra-botons{
+    justify-self: flex-end;
+    align-self: flex-end;
+    margin-right: 2em;
+    margin-bottom: 1em;
+
+}
+.registre-compra-info h2 {
+    margin-top: 2em;
+}
+.titol {
+    margin: 1em 0;
+    border-bottom: darkgoldenrod 3px solid;
+}
+.total{
+    margin-top: 1em;
+    background-color: gray;
+    width: 80%;
+    border-radius: 1em;
+    display: flex;
+    flex-direction: column;
+
+}
+aside h1 {
+    margin: 0.56em 0;
+}
+.suma {
+    width: 100%;
+    border-top: goldenrod solid 2px;
+    text-align: right;
+    justify-self: flex-end;
+    align-self: flex-end;
+}
+.total-compra{
+    padding: 1em 0.5em;
+}
