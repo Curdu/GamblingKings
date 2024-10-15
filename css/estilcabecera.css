@@ -7,7 +7,6 @@
     margin: 0 0.5em;
     padding-top: 0.3em;
     text-align: left;
-    margin-left: 0.5em;
     color: white;
 }
 body {
@@ -16,12 +15,14 @@ body {
 }
 
 header {
-   witdh: 100%;
-    height: 10em;
     background: linear-gradient(black 70%, darkgoldenrod);
     border-bottom: #b69121 3px solid;
     display: flex;
     justify-content: center;
+}
+img{
+    height: 10em;
+
 }
 
 main {

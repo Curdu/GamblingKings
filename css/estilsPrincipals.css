@@ -9,7 +9,6 @@ body {
 }
 h1{
     font-size: 4em;
-
 }
 iframe {
     width: 100%;
@@ -23,6 +22,7 @@ iframe {
 }
 article {
     background: radial-gradient(#135dea 1%, black 65%);
+    gap: 2em;
 }
 .abril-fatface-regular {
     font-family: "Abril Fatface", serif;
@@ -44,15 +44,22 @@ aside{
     flex-direction: column;
     align-items: center;
     background: radial-gradient(#750000 1%, black 65%);
+    border: white dashed 2px;
+    border-radius: 2em;
+    padding: 0 2em;
+    box-shadow: 0 5px 15px grey;
+
 }
 aside h1 {
     font-family: "Londrina Sketch", sans-serif;
     font-weight: 600;
     font-style: normal;
-    border-bottom: goldenrod dashed 4px;
+    border-bottom: white dashed 4px;
     width: 90%;
     text-align: center;
     font-size: 5em;
+    color: white;
+    margin-bottom: 1em;
 }
 .carta {
     width: 75%;
@@ -64,7 +71,6 @@ aside h1 {
     box-shadow: 0 5px 15px grey;
     color: black;
     font-size: 2em;
-    margin-bottom: 2em;
     border: solid grey 2px;
 }
 .top-esquerra, .bottom-dreta {
@@ -124,9 +130,12 @@ div.carta-contingut {
 }
 header{
     width: 100%;
-    height: 10.15em;
+    height: 10.4em;
 }
 nav{
     width: 100%;
     height: 5.5em;
+}
+.carrusel-borde {
+    border: white 3px solid;
 }
