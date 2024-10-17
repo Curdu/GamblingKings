@@ -3,68 +3,79 @@
 <head>
   <meta charset="UTF-8">
   <title>Registre d'Usuari</title>
+
   <link rel="stylesheet" href="../css/estilsformulari.css">
 </head>
 <body>
 <header>
+  <iframe src="capçalera.html" frameborder="0"></iframe>
 
 </header>
+<nav>
+  <iframe src="menu.html" frameborder="0"></iframe>
+</nav>
+<div id="formulari">
+  <form action="#" method="post" class="formulario">
+    <h1>Registre d'Usuari</h1>
+    <h3>Introdueix les teves dades de contacte:</h3>
 
-<form action="#" method="post" class="formulario">
-  <h1>Registre d'Usuari</h1>
-  <h3>Introdueix les teves dades de contacte:</h3>
-
-  <div class="input-group mb-3">
-    <div class="form-floating">
-      <label for="floatingInputGroup1">Nom d'usuari:</label>
-      <input type="text" class="form-control" id="floatingInputGroup1" placeholder="Marc Bota">
+    <div class="input-group mb-3">
+      <div class="form-floating">
+        <label for="floatingInputGroup1">Nom d'usuari:</label>
+        <input type="text" class="form-control" id="floatingInputGroup1" placeholder="Marc Bota">
+      </div>
     </div>
-  </div>
 
-  <div class="form-floating mb-3">
-    <label for="floatingInput">Email:</label>
-    <input type="email" class="form-control" id="floatingInput" placeholder="marcbotavilar@gmail.com">
-  </div>
-  <div class="form-floating">
-    <label for="floatingPassword">Contrasenya:</label>
-    <input type="password" class="form-control" id="floatingPassword" placeholder="Contrasenya (minim 8 caracters)">
-  </div>
-
-  <div class="input-group mb-3">
-    <div class="form-floating">
-      <label for="floatingInputGroup1">Telefon:</label>
-      <input type="tel" id="number" name="number" placeholder="611 437 060">
+    <div class="form-floating mb-3">
+      <label for="floatingInput">Email:</label>
+      <input type="email" class="form-control" id="floatingInput" placeholder="marcbotavilar@gmail.com">
     </div>
-  </div>
-
-  <div class="input-group mb-3">
     <div class="form-floating">
-      <label for="floatingInputGroup1">Data de naixement:</label>
-      <input type="date" id="date" name="date" placeholder="DD/MM/AAAA">
+      <label for="floatingPassword">Contrasenya:</label>
+      <input type="password" class="form-control" id="floatingPassword" placeholder="Contrasenya (minim 8 caracters)">
     </div>
-  </div>
-<div>
-  <label for="country">País:</label><br>
-  <select type="select" id="country" name="country">
-    <option value="es">Espanya</option>
-    <option value="mx">Alemania</option>
-    <option value="mx">França</option>
-    <option value="mx">Italia</option>
-    <option value="mx">Argentina</option>
-    <option value="mx">Brasil</option>
-    <option value="mx">Croacia</option>
-    <option value="mx">Polonia</option>
-  </select></br>
+
+    <div class="input-group mb-3">
+      <div class="form-floating">
+        <label for="floatingInputGroup1">Telefon:</label>
+        <input type="tel" id="number" name="number" placeholder="611 437 060">
+      </div>
+    </div>
+
+    <div class="input-group mb-3">
+      <div class="form-floating">
+        <label for="floatingInputGroup1">Data de naixement:</label>
+        <input type="date" id="date" name="date" placeholder="DD/MM/AAAA">
+      </div>
+    </div>
+    <div>
+      <label for="country">País:</label><br>
+      <select type="select" id="country" name="country">
+        <option value="es">Espanya</option>
+        <option value="mx">Alemania</option>
+        <option value="mx">França</option>
+        <option value="mx">Italia</option>
+        <option value="mx">Argentina</option>
+        <option value="mx">Brasil</option>
+        <option value="mx">Croacia</option>
+        <option value="mx">Polonia</option>
+      </select></br>
+    </div>
+    <div class="checkbox">
+      <input type="checkbox">
+      <label type="text"> He llegit i accepto els termes i condicions </label>
+    </div>
+    <div>
+      <input type="submit" value="Enviar">
+      <input type="reset" value="Restablecer">
+    </div>
+  </form>
+
 </div>
-  <div class="checkbox">
-    <input type="checkbox">
-    <label type="text"> He llegit i accepto els termes i condicions </label>
-  </div>
-<div>
-  <input type="submit" value="Enviar">
-  <input type="reset" value="Restablecer">
-</div>
-</form>
-<iframe src="../html/peu_pagina.html" frameborder="0" scrolling="no"></iframe>
+
+
+<footer>
+  <iframe src="../html/peu_pagina.html" frameborder="0" scrolling="no"></iframe>
+</footer>
 </body>
 </html>
