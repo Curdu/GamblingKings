@@ -5,5 +5,75 @@
 .footer {
     color:#9a7d0a ;
     height:1rem;
+    padding: 0;
+    box-sizing: border-box;
+}
+footer {
     background-color: #000000;
+    color: white;
+    margin-bottom: 5em;
+    text-align: center;
+    height: 40em;
+    width: 100%;
+}
+.footer-container {
+    display: flex;
+}
+.footer-section {
+    flex: 1;
+    margin: 20px;
+    min-width: 200px;
+}
+.footer-section h4 {
+    margin-bottom: 15px;
+    font-size: 18px;
+    color: #f1c40f;
+}
+.footer-section p,
+.footer-section a {
+    font-size: 14px;
+    color: #ecf0f1;
+    text-decoration: none;
+    margin: 5px 0;
+}
+
+.footer-section a:hover {
+    color: #f39c12;
+}
+.footer-section form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer-section input {
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 80%;
+    border: none;
+    border-radius: 5px;
+}
+.footer-section button {
+    padding: 10px 20px;
+    background-color: #f39c12;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.footer-section button:hover {
+    background-color: #ffffff;
+}
+@media (max-width: 768px) {
+    .footer-container {
+
+        align-items: center;
+    }
+
+    .footer-section {
+        margin: 10px 0;
+    }
+
+    .footer-section input {
+        width: 100%;
+    }
 }
