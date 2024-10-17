@@ -47,6 +47,7 @@ article{
 .titol {
     margin: 1em 0;
     border-bottom: darkgoldenrod 3px solid;
+    color: gold;
 }
 .total{
     margin-top: 1em;

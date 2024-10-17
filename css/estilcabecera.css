@@ -22,8 +22,20 @@ header {
 }
 img{
     height: 10em;
-
 }
 
 main {
     padding: 20px;}
+@media screen and (max-width: 480px) {
+    .londrina-sketch-regular {
+        font-size: 1.5rem;
+    }
+
+    img {
+        max-height: 6em;
+    }
+
+    main {
+        padding: 10px;
+    }
+}
