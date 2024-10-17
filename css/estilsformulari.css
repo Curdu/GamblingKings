@@ -42,7 +42,7 @@ input[type="time"],
 input[type="range"],
 input[type="submit"],
 select[type="select"]{
-    padding: 0px;
+    padding: 0;
     width: 100%;
     box-sizing: border-box;
 }
