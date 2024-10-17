@@ -1,12 +1,7 @@
 {
     margin: 0;
 }
-html, body {
-    height: 100%;
-}
-.wrapper {
-    min-height: calc(100% - 4rem);
-}
+
 .footer {
     color:#9a7d0a ;
     height:1rem;
