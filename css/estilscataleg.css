@@ -5,7 +5,12 @@ body {
     background-color: #f4f4f4;
 }
 body {
-    background-image: url("../res/fotofondonegre1.jpg");
+    background-color:#000000;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    background: radial-gradient(#750000 1%, black 65%);
+
 }
 .cataleg {
     display: flex;
@@ -14,7 +19,7 @@ body {
 }
 
 .producte {
-    background-color: #7e6d29;
+    background-color: #987802;
     border: 1px solid #000000;
     border-radius: 5px;
     padding: 20px;
@@ -71,7 +76,7 @@ section.fitxes{
 }
 
 h1{
-    color: #7e6d29;
+    color: #987802;
 }
 
 img{
@@ -88,14 +93,14 @@ img {
     object-fit: cover;
 }
 
-h1{
-    background-color: #7e6d29;
+
+#seccio{
+    background-color: #987802;
     padding: 10px;
     color: white;
     border-radius: 5px;
     width: 9em;
 }
-
 iframe {
     width: 90%;
     margin: 0;
